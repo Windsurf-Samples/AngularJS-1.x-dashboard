@@ -99,6 +99,19 @@ angular.module('app', [
         directive: 'wt-time'
       },
       {
+        name: 'time-angular',
+        directive: 'wt-time-angular',
+        title: 'Time (Angular)'
+      },
+      {
+        name: 'random-angular',
+        directive: 'wt-scope-watch-angular',
+        title: 'Random (Angular)',
+        attrs: {
+          value: 'randomValue'
+        }
+      },
+      {
         name: 'datamodel',
         directive: 'wt-scope-watch',
         dataAttrName: 'value',
@@ -118,12 +131,23 @@ angular.module('app', [
           width: '50%',
           height: '250px'
         }
+      },
+      {
+        name: 'fluid-angular',
+        directive: 'wt-fluid-angular',
+        title: 'Fluid (Angular)',
+        size: {
+          width: '50%',
+          height: '250px'
+        }
       }
     ];
   })
   .value('defaultWidgets', [
     { name: 'random' },
     { name: 'time' },
+    { name: 'time-angular' },
+    { name: 'random-angular' },
     { name: 'datamodel' },
     {
       name: 'random',
@@ -134,6 +158,12 @@ angular.module('app', [
     },
     {
       name: 'time',
+      style: {
+        width: '50%'
+      }
+    },
+    {
+      name: 'fluid-angular',
       style: {
         width: '50%'
       }

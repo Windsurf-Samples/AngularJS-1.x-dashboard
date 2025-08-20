@@ -27,7 +27,10 @@ function browserSyncInit(baseDir, files, browser) {
       middleware: middleware,
       routes: routes
     },
-    browser: browser
+    browser: browser,
+    files: [
+      paths.tmp + '/ts/**/*.js'
+    ]
   });
 }
 
