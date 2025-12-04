@@ -5,3 +5,16 @@ bower_components/
 dist/
 /demo/
 /coverage
+
+# Angular CLI
+.angular/
+out-tsc/
+
+# Debug logs
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+*.swp
+*.swo

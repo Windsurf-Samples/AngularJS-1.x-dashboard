@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #666;
+  margin: 0.5rem 0;
+}
