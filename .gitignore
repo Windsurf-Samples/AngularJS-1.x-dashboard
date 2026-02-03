@@ -5,3 +5,21 @@ bower_components/
 dist/
 /demo/
 /coverage
+
+# Angular CLI
+.angular/
+out-tsc/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

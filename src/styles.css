@@ -1,0 +1,52 @@
+/* Global styles for the hybrid Angular/AngularJS application */
+
+/* Dashboard styles */
+.widget {
+  margin-bottom: 20px;
+}
+
+.widget-header {
+  cursor: move;
+}
+
+.widget-content {
+  padding: 10px;
+}
+
+/* Navbar offset for fixed navbar */
+body {
+  padding-top: 70px;
+}
+
+/* Alert styling */
+.alert {
+  margin: 15px;
+}
+
+/* Dashboard container */
+.dashboard-container {
+  padding: 15px;
+}
+
+/* Widget resizer */
+.widget-resizer-marquee {
+  border: 2px dashed #333;
+  position: absolute;
+  z-index: 1000;
+}
+
+/* Sortable placeholder */
+.ui-sortable-placeholder {
+  border: 2px dashed #ccc;
+  visibility: visible !important;
+  background: #f5f5f5;
+}
+
+/* Angular component styles */
+.ng-test-component {
+  padding: 10px;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  margin: 10px 0;
+}
