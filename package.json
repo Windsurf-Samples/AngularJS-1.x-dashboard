@@ -24,6 +24,8 @@
     "@angular/router": "^17.3.0",
     "@angular/upgrade": "^17.3.0",
     "angular": "^1.8.3",
+    "angular-markdown-directive": "^0.3.1",
+    "angular-route": "^1.8.3",
     "angular-sanitize": "^1.8.3",
     "angular-ui-bootstrap": "^2.5.6",
     "angular-ui-sortable": "^0.19.0",
@@ -32,6 +34,7 @@
     "jquery-ui": "^1.13.2",
     "lodash": "^4.17.21",
     "rxjs": "~7.8.0",
+    "showdown": "^1.9.1",
     "tslib": "^2.6.0",
     "zone.js": "~0.14.0"
   },

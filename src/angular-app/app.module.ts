@@ -44,6 +44,6 @@ export class AppModule {
    */
   ngDoBootstrap(): void {
     // Bootstrap AngularJS
-    this.upgrade.bootstrap(document.body, ['app'], { strictDi: true });
+    this.upgrade.bootstrap(document.body, ['app'], { strictDi: false });
   }
 }

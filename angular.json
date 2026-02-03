@@ -44,9 +44,12 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/jquery-ui/dist/jquery-ui.min.js",
-              "node_modules/angular/angular.min.js",
-              "node_modules/angular-sanitize/angular-sanitize.min.js",
-              "node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js",
+                            "node_modules/angular/angular.min.js",
+                            "node_modules/angular-route/angular-route.min.js",
+                                          "node_modules/angular-sanitize/angular-sanitize.min.js",
+                            "node_modules/showdown/dist/showdown.min.js",
+                            "node_modules/angular-markdown-directive/markdown.js",
+                            "node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js",
               "node_modules/angular-ui-sortable/dist/sortable.min.js",
               "node_modules/lodash/lodash.min.js",
               "src/components/directives/dashboard/dashboard.js",
@@ -69,11 +72,14 @@
               "src/app/dataModel.js",
               "src/app/directives.js"
             ],
-            "allowedCommonJsDependencies": [
-              "lodash",
-              "angular",
-              "angular-sanitize",
-              "angular-ui-bootstrap",
+                        "allowedCommonJsDependencies": [
+                          "lodash",
+                          "angular",
+                          "angular-route",
+                                        "angular-sanitize",
+                            "angular-markdown-directive",
+                            "showdown",
+                            "angular-ui-bootstrap",
               "angular-ui-sortable",
               "jquery",
               "jquery-ui"
